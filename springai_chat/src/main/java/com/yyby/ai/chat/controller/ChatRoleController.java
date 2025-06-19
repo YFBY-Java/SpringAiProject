@@ -26,4 +26,5 @@ public class ChatRoleController {
         return chatClient.prompt().user(message).stream().content();
     }
 
+
 }
