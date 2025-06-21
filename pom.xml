@@ -21,6 +21,7 @@
     <modules>
         <module>springai_hello</module>
         <module>springai_chat</module>
+        <module>springai_function</module>
     </modules>
     
     
