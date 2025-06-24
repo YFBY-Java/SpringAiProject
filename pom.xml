@@ -23,6 +23,7 @@
         <module>springai_chat</module>
         <module>springai_function</module>
         <module>springai_ollama</module>
+        <module>springai_alibaba</module>
     </modules>
     
     
