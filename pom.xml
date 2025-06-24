@@ -24,6 +24,7 @@
         <module>springai_function</module>
         <module>springai_ollama</module>
         <module>springai_alibaba</module>
+        <module>springai_other</module>
     </modules>
     
     
