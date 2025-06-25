@@ -25,6 +25,7 @@
         <module>springai_ollama</module>
         <module>springai_alibaba</module>
         <module>springai_other</module>
+        <module>springai_rag</module>
     </modules>
     
     
