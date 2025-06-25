@@ -1,7 +1,6 @@
 package com.yyby.ai.controller;
 
 import com.alibaba.cloud.ai.dashscope.api.DashScopeImageApi;
-import com.alibaba.cloud.ai.dashscope.chat.DashScopeChatOptions;
 import com.alibaba.cloud.ai.dashscope.image.DashScopeImageModel;
 import com.alibaba.cloud.ai.dashscope.image.DashScopeImageOptions;
 import jakarta.servlet.http.HttpServletResponse;
@@ -13,13 +12,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.awt.*;
 import java.io.InputStream;
 import java.net.URI;
 import java.net.URL;
 
 @RestController
-public class OtherController {
+public class ImageModelController {
 
     @Autowired
     private DashScopeImageModel imageModel;
